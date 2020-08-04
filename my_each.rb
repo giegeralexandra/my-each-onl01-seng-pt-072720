@@ -3,4 +3,5 @@ def my_each(array)
   while array.length < i
     yield array [i]
   end
+  array
 end
